@@ -16,7 +16,6 @@
 
 # misc
 .DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -37,8 +36,8 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-.env
 .vercel
 
 # Ignore all .log files anywhere in the project
 *.log
+config.bat
